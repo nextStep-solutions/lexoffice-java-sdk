@@ -36,7 +36,7 @@ public class LineItem {
     private UnitPrice unitPrice;
 
     @JsonProperty("discountPercentage")
-    private Long discountPercentage;
+    private BigDecimal discountPercentage;
 
     @JsonProperty("lineItemAmount")
     private BigDecimal lineItemAmount;
